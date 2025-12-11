@@ -1,0 +1,11 @@
+# 1. Ignore EVERYTHING
+*
+
+# 2. Allow ALL notebooks (or change *.ipynb to specific_name.ipynb)
+!CareerAlterEgo.ipynb
+
+# 3. Allow the Readme
+!README.md
+
+# 4. (Optional) Let Git track this ignore file too
+!/.gitignore
