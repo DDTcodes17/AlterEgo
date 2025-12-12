@@ -1,4 +1,4 @@
-reequests
+requests
 openai
 dotenv
 PyPDF2
