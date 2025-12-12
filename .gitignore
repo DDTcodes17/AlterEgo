@@ -4,6 +4,7 @@
 # 2. Allow ALL notebooks (or change *.ipynb to specific_name.ipynb)
 !CareerAlterEgo.ipynb
 !app.py
+!requirements.txt
 # 3. Allow the Readme
 !README.md
 
