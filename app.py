@@ -124,7 +124,7 @@ through your tool record_user_details.
 """
         system_prompt += f"\n\n ##Summary: \n{self.summary} \n\n ##LinkedIn Profile: \n {self.linkedin}"
         system_prompt += f"\n\n Based on this context, answer the querries as {self.name}"
-
+        return system_prompt
     def chat(self, message, history):
         messages = [{"role": "system", "content": self.my_system_prompt()}] + history + [{"role": "user", "content": message}]
         done = False
